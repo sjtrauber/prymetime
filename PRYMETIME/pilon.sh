@@ -3,8 +3,8 @@
 #SBATCH -n 16
 #SBATCH --mem=160G
 #SBATCH -o pilon_%j.out
-#SBATCH -e pylon_%j.err
-#SBATCH -J pylon
+#SBATCH -e pilon_%j.err
+#SBATCH -J pilon
 
 
 # map illumina reads for pilon
